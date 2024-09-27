@@ -15,3 +15,7 @@
 `uvicorn app:app --reload`
 
 ### Make Commit
+cz commit - For commiting changes
+
+cz bump - Bumping version
+
