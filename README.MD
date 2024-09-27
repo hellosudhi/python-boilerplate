@@ -1,15 +1,17 @@
-# create a virtual env
+### 🌐 Create a virtual env 🐍
 
-## python3 -m venv .venv
+`python3 -m venv .venv `
 
-# Source the environement
+### Source the environement
 
-## source .venv/bin/activate
+`source .venv/bin/activate`
 
-# Optional (Conventional commits )
+### Optional (Conventional commits )
 
-## pip install -U commitizen
+`pip install -U commitizen`
 
-# Runn Applicatons
+### Run Applicatons
 
-"uvicorn app:app --reload"
+`uvicorn app:app --reload`
+
+### Make Commit

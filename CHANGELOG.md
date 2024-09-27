@@ -1,3 +1,9 @@
+## 0.2.0 (2024-09-27)
+
+### Feat
+
+- **Intialized-fastapi**: Fastapi
+
 ## 0.1.0 (2024-09-27)
 
 ### Feat
