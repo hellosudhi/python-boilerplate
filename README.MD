@@ -9,3 +9,7 @@
 # Optional (Conventional commits )
 
 ## pip install -U commitizen
+
+# Runn Applicatons
+
+"uvicorn app:app --reload"
