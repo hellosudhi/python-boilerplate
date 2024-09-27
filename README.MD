@@ -19,3 +19,8 @@ cz commit - For commiting changes
 
 cz bump - Bumping version
 
+gpsup - Push the codde to upstream
+
+git push tag - Push the tags
+
+
