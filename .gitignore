@@ -1,0 +1,55 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Python application logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.cache/
+*.cover
+*.coverage
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyenv
+.python-version
+
+# Pipenv
+Pipfile.lock
+
+# Virtual environment directories
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Other
+*.DS_Store
