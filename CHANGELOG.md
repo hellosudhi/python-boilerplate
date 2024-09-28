@@ -1,3 +1,9 @@
+## 0.4.0 (2024-09-28)
+
+### Feat
+
+- **UserService**: User service crud Operation
+
 ## 0.3.0 (2024-09-28)
 
 ### Feat
