@@ -1,7 +1,7 @@
 # src/model/models.py
 from pydantic import BaseModel,Field,EmailStr
 from bson import ObjectId
-
+from typing import Optional
 
 # Custom class to handle Mongodb Objectid validaton
 class PyObjectId(ObjectId):
@@ -24,3 +24,16 @@ class UserModel(BaseModel):
 # Inherit from UserModel
 class UserInDB(UserModel):
   id:PyObjectId = Field(default_factory=PyObjectId,alias="_id")
+
+class UserUpdateModel(BaseModel):
+ username: Optional[str] = Field(None,min_length=6,max_length=30)
+ email: Optional[EmailStr] = None
+ 
+# User output model (excludes password)
+class UserResponse(BaseModel):
+    id: PyObjectId = Field(alias="_id")
+    username: str
+    email: EmailStr
+
+    class Config:
+        allow_population_by_field_name = True
