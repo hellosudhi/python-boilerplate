@@ -1,3 +1,9 @@
+## 0.3.0 (2024-09-28)
+
+### Feat
+
+- **User**: Provided User service and controller
+
 ## 0.2.0 (2024-09-27)
 
 ### Feat
